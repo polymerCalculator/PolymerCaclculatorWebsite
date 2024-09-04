@@ -11,3 +11,18 @@
   <header>
     Test1
   </header>
+
+  <h2> Test Simulation </h2>
+
+  <button type="button" onclick="displayDate()"> Click me to display Date and Time. </button>
+
+  <p id="demo"></p>
+
+  <script>
+  function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+  }
+</script>
+
+</body>
+</html>
